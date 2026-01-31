@@ -10,7 +10,7 @@ ADMIN_ID = 8213203739 # твой Telegram ID
 
 logging.basicConfig(level=logging.INFO)
 
-bot = Bot(token='8559874170:AAG6LK4kTruqb95HXlgw6SGOAfLvKGolSEg', parse_mode="HTML")
+bot = Bot(token='8559874170:AAG6LK4kTruqb95HXlgw6SKGolSEg', parse_mode="HTML")
 dp = Dispatcher(bot, storage=MemoryStorage())
 
 # ===== Хранилище каналов =====
